@@ -10,7 +10,7 @@ body {
     font-size: 20px;
     display: grid;
     grid-template-columns: 2fr 8fr 2fr;
-    margin: 0px 0px 20px 0px;
+    margin: 0px;
     color: #454545;
 }
 
@@ -199,6 +199,7 @@ h2 {
     color: white;
     display: grid;
     padding: 20px;
+    margin-top: 60px;
 }
 
 .footerLinks {
@@ -211,7 +212,7 @@ h2 {
     font-size: 20px;
 }
 
-#footer {
+.footerLinks a {
     color: white; 
     display: inline-block;
     grid-column-start: 2;
@@ -231,6 +232,3 @@ h2 {
     font-size: 24px
 }
 
-.space {
-    height: 60px;
-}
