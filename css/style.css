@@ -1,71 +1,13 @@
+
 h1,h2 {
     font-family: 'Judson', serif;
     font-size: 36px;
-    font-weight: bold;
-}
-
-
-
-body {
-    font-family: 'KoHo', sans-serif;
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: 2fr 8fr 2fr;
-    margin: 0px;
     color: #454545;
-}
-
-/*Navigation*/
-
-.nav {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.navButton {
-    padding: 1px 10px 5px 10px;
-    border-radius: 20px;
-    margin: 5px;
-    transition: all 0.5s ease;
-}
-
-.navButton.selected {
-    background-color: #454545;
-    color: white;
-    padding: 1px 25px 5px 25px;
-}
-
-.navButton.unselected:hover {
-    background-color: #ef709b7a;
-}
-
-.navItem {
-    margin: 0px 2px;
-    height: 28px;
-    width: 79px;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: #454545;
-}
-
-.navItem a {
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.navItemWrapper {
-    display: flex;
-    justify-content: flex-end;
-    align-content: space-around;
-    margin-top: 8px;
 }
 
 .logo {
     background-color: #454545;
-    color: white;
+    color: white !important;
     width: 173px;
     height: 43px;
     text-align: center;
@@ -74,84 +16,30 @@ a {
     align-items: center;
 }
 
-.logoText {
-    line-height: 43px;
-    margin-bottom: 3px;
+body {
+    font-family: 'KoHo', sans-serif;
+    font-size: 20px;
+    color: #454545;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
-.navHome{
-    background-color: #454545;
-    width: 110px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
-    margin-bottom: 2px;
+.heroText {
+    padding: 50px;
 }
 
-.navHome a {
-    color: white;
-    font-weight: 500;
-    line-height: 30px;
+.heroText p {
+    font-size: 20px;
 }
 
-.navItem:not(.navHome) {
-    margin-top: 2px;
-}
-
-.content {
-    grid-column-start: 2;
-}
-
-/*Header*/
-
-.header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20rem;
-    margin-bottom: 55px;
-}
-
-.intro {
-    margin-top: 59px;
-    font-weight: 400;
-}
-
-.drawing {
-    display: flex;
-    justify-content: center;
-}
-
-/*Projects*/
-
-.projectsGrid {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 50px;
-}
-
-.projectBlock {
-    display: grid;
-    grid-template-columns: 5fr 2fr 5fr;
-    border-radius: 8px;
-    padding: 0px 82px;
+.card {
+    padding: 20px;
     box-shadow: 4px 4px 28px 9px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
 }
 
-.leftColumn {
-    justify-content: center;
-    align-content: center;
-    grid-column-start: 1;
-}
-
-.rightColumn{
-    justify-content: center;
-    align-content: center;
-    grid-column-start: 3;
-}
-
-.rightColumn:not(.textColumn), .leftColumn:not(.textColumn) {
-    display: grid;
+.ulearn {
+    padding-right: 100px;
 }
 
 .button {
@@ -162,74 +50,74 @@ a {
     display: inline-block;
     font-weight: 500;
     font-size: 16px;
-    padding: 3px 30px 5px 30px;
-    transition: all 0.5s ease;    
+    padding: 3px 30px 3px 30px;
+    transition: all 0.5s ease;
+    margin-left: 20px;    
+}
+
+a {
+    text-decoration: none;
+    color: #454545;
 }
 
 .button:hover {
     background-color: #454545;
     color: white;
+    text-decoration: none;
 }
 
-.projectImage {
-    margin: auto;
-    display: block;
-}
-
-p {
-    margin: 6px 0px 25px 0px;
-}
-
-h2 {
-    margin: 0px;
-}
-
-.textColumn {
-    display: grid;
-    grid-template-rows: 1fr 6fr 1fr;
-}
-
-.textRow {
-    grid-row-start: 2;
-}
-
-/*Footer*/
-
-.footer {
-    background-color: #454545;
-    color: white;
-    display: grid;
-    padding: 20px;
-    margin-top: 60px;
-}
-
-.footerLinks {
-    /* padding: 20px; */
-    color: white; 
-    display: inline-block;
-    justify-content: space-between;
-    margin: unset;
-    text-align: center;
+.nav-item {
+    padding: 1px 10px 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+    transition: all 0.5s ease;
+    font-weight: 600;
     font-size: 20px;
 }
 
-.footerLinks a {
-    color: white; 
-    display: inline-block;
-    grid-column-start: 2;
-    margin: auto;
-    justify-content: space-around;
-    align-content: space-around;
-    padding-left: 37.5px;
-    padding-right: 37.5px;
+.nav-item.active {
+    background-color: #454545;
+    padding: 1px 25px 5px 25px;
+    
 }
 
-.logo2 {
-    display: block;
-    margin: auto;
+.nav-item:not(.active):hover {
+    background-color: #ef709b7a;
+}
+
+.nav-item.active .nav-link {
+    color: white !important;
+}
+
+.taxalaska {
+    padding-left: 100px;
+}
+
+.footer {
+    background-color: #454545;
+}
+
+.footeritems {
+    color: white;
     text-align: center;
-    padding-top: 21px;
-    padding-bottom: 15px;
-    font-size: 24px
+    padding: 10px;
 }
 
+.footeritems a {
+    color: white;
+    text-decoration: none;
+}
+
+.footeritems a:hover {
+    text-decoration: none;
+    color: #ef709b7a;
+}
+
+.logofooter {
+    font-size: 36px;
+    padding: 30px;
+}
+
+.plango {
+    margin-bottom: 40px !important;
+}

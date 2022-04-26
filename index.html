@@ -1,93 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Judson&family=KoHo:wght@400;500;600&display=swap" rel="stylesheet">
-<body>
-    <div class="content">
-        <div class="nav">
-            <div class="logo">
-                <div class="logoText">JVW Design</div>
+    <title>JVW Design</title>
+  </head>
+  <body class="row">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light col-md-8 offset-md-2 row justify-content-between py-0">
+        <a class="navbar-brand col-2 py-0 logo" href="#">JVW Design</a>
+        <div class="collapse navbar-collapse col-4 justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link py-0" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-0" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-0" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-0" href="#">Resume</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    
+
+      <div class="col-md-8 offset-md-2">
+          <div class="row">
+              <div class="heroText col-md-7"><h1>Hello, I'm Jacqueline VanWert.<br> A UI/UX Designer.</h1>
+            <p>I specialize in solving user problems that are based on layouts and design. My skills include creating Figma wireframes and prototypes, utilizing user feedback to reiterate ideas, and using my artistic eye to determine graphics and objects that work aesthetically.</p></div>
+              <div class="heroImage col-md-5 d-flex justify-content-center">
+                  <img src="./images/Drawing.png">
+              </div>
+          </div>
+      </div>
+
+      <div class="card mb-3 col-md-8 offset-md-2 ulearn">
+        <div class="row">
+          <div class="col-md-4 d-flex justify-content-center">
+            <img src="./images/ULearn.png" alt="ULearn">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><h2>ULearn - Virtual Teaching Platform</h2></h5>
+              <p class="card-text">The all-in-one virtual teaching platform for teachers. Virtual teachers have a lot on their plates and have to use multiple resources to plan and teach. With ULearn, teachers have a convienent all-in-one place to help them with all their classroom needs.</p>
             </div>
+            <a href="#" class="button">view more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 col-md-8 offset-md-2">
+        <div class="row">
+            <div class="col-md-8 taxalaska">
+                <div class="card-body">
+                    <h5 class="card-title"><h2>Tax Alaska Redesign</h2></h5>
+                    <p class="card-text">An updated web and mobile design for the Alaska Department of Revenue: Tax Division. This government tax information site needed an overhaul on how they organize their information and updated layout to help them come into the modern age while still remaining functional.</p>
+                </div>
+                <a href="#" class="button">view more</a>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <img src="./images/TaxAlaska.png" alt="Tax Alaska Redesign">
+            </div>          
+        </div>
+      </div>
+
+      <div class="card mb-3 col-md-8 offset-md-2 plango">
+        <div class="row">
+          <div class="col-md-4 d-flex justify-content-center">
+            <img src="./images/PlanGo.png" alt="Plan&Go Prototype Image">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><h2>Plan&Go Travel App</h2></h5>
+              <p class="card-text">How can you book everything for a trip all at once? With our Plan&Go app you can book your dream vacation, including lodging, flights, car rentals, and activities all in one go with our bundles customized to you!</p>
+            </div>
+            <a href="#" class="button">view more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class=" col-md-12  footer">
+          <div class="row footeritems">
             
-            <div class="navItemWrapper">
-                    <a href="link" class="selected navButton">home</a>
-                    <a href="link" class="unselected navButton">work</a>
-                    <a href="link" class="unselected navButton">about</a>
-                    <a href="link" class="unselected navButton">resume</a>
-            </div>
-        </div>
-    
-        <div class="header">
-            <div class="intro">
-                <h1 class="title">Hello, I'm Jacqueline VanWert. A UI/UX Designer.</h1>
-                <p>I specialize in solving user problems that are based on layouts and design. My skills include creating Figma wireframes and prototypes, utilizing user feedback to reiterate ideas, and using my artistic eye to determine graphics and objects that work aesthetically.</p>
-            </div>
-            <div class="drawing">
-                <img src="./images/Drawing.png"/>
-            </div>
-        </div>
-    
-        <div class="projectsGrid">
-            <div class="projectBlock">
-                <div class="leftColumn">
-                    <img class="projectImage" src="./images/ULearn.png">
+            <div class="footerLinks col-md-2 offset-md-2">
+                  <a href="#">Home</a>
                 </div>
-                <div class="rightColumn textColumn">
-                    <div class="textRow">
-                        <h2>Virtual Teaching Platform</h2>
-                        <p>The all-in-one virtual teaching platform for teachers. Virtual teachers have a lot on their plates and have to use multiple resources to plan and teach. With ULearn, teachers have a convienent all-in-one place to help them with all their classroom needs.</p>
-                        <a href="ULearnLink" class="button">view more</a>
-                    </div>
+            <div class="footerLinks col-md-2">
+                    <a href="#">Projects</a>
+                  </div>
+            <div class="footerLinks col-md-2">
+                    <a href="#">About</a>
+                  </div>
+            <div class="footerLinks col-md-2">
+                    <a href="#">Resume</a>
+                  </div>
+            <div class="logofooter col-md-12">
+                  JVW Design
                 </div>
-            </div>
+          </div>
+      </div>
 
-            <div class="projectBlock">
-                <div class="leftColumn textColumn">
-                    <div class="textRow">
-                        <h2>Tax Alaska Redesign</h2>
-                        <p>An updated web and mobile design for the Alaska Department of Revenue: Tax Division. This government tax information site needed an overhaul on how they organize their information and updated layout to help them come into the modern age while still remaining functional.</p>
-                        <a href="TaxAlaskaLink" class="button">view more</a>
-                    </div>
-                </div>
-                <div class="rightColumn">
-                    <img class="projectImage" src="./images/TaxAlaska.png">
-                </div>
-            </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
-            <div class="projectBlock">
-                <div class="leftColumn">
-                    <img class="projectImage" src="./images/PlanGo.png">
-                </div>
-                <div class="rightColumn textColumn">
-                    <div class="textRow">
-                        <h2>Travel App</h2>
-                        <p>How can you book everything for a trip all at once? With our Plan&Go app you can book your dream vacation, including lodging, flights, car rentals, and activities all in one go with our bundles customized to you!</p>
-                        <a href="TravelAppLink" class="button">view more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="footerLinks">
-                <a href="#">home</a>
-                <a href="#">work</a>
-                <a href="#">about</a>
-                <a href="#">resume</a>
-            </div>
-            <div class="logo2">
-                JVW Design
-            </div>
-        </div>
-
-    </div>
-
-</body>
+  </body>
 </html>
