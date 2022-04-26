@@ -38,10 +38,6 @@ body {
     margin-top: 20px;
 }
 
-.ulearn {
-    padding-right: 100px;
-}
-
 .button {
     border: 3px solid #454545;
     border-radius: 20px;
@@ -89,10 +85,6 @@ a {
     color: white !important;
 }
 
-.taxalaska {
-    padding-left: 100px;
-}
-
 .footer {
     background-color: #454545;
 }
@@ -110,14 +102,10 @@ a {
 
 .footeritems a:hover {
     text-decoration: none;
-    color: #ef709b7a;
+    color: #ffa4c3e8;
 }
 
 .logofooter {
     font-size: 36px;
     padding: 30px;
-}
-
-.plango {
-    margin-bottom: 40px !important;
 }
