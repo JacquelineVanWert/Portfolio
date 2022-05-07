@@ -296,4 +296,7 @@ img {
         margin: 0px;
         padding: 0px;
     }
+    .projectInfo {
+        font-size: 14px;
+    }
 }
