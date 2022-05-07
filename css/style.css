@@ -16,6 +16,31 @@ h1,h2 {
     align-items: center;
 }
 
+.navbar .nav-item {
+    height: 40px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-link {
+    padding: 3px;
+}
+
+.nav-item li {
+    justify-content: center;
+    vertical-align: center;
+}
+
+.bg-light {
+    background-color: #FFFFFF !important;
+}
+
+img {
+    object-fit: contain;
+}
+
 body {
     font-family: 'KoHo', sans-serif;
     font-size: 20px;
