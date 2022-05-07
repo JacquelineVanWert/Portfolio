@@ -33,6 +33,10 @@ h1,h2 {
     vertical-align: center;
 }
 
+.dropdown-menu a:hover{
+    background-color: #ef709b7a;
+}
+
 .bg-light {
     background-color: #FFFFFF !important;
 }
