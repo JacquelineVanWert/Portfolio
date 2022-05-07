@@ -48,6 +48,8 @@ h5 {
     margin-bottom: 15px;
 }
 
+
+
 .research h5 {
     margin-top: 68px;
     margin-bottom: 15px;
@@ -59,8 +61,8 @@ h5 {
 }
 
 .researchContainer img {
-    height: 540px;
-    width: 612px;
+    height: 375px;
+    width: 425px;
 }
 
 .definitionContainer p {
@@ -69,8 +71,8 @@ h5 {
 }
 
 .definitionContainer img {
-    height: 521px;
-    width: 952px;
+    height: 298px;
+    width: 545px;
 }
 
 .ideationContainer p {
@@ -79,13 +81,13 @@ h5 {
 }
 
 .ideationContainer img {
-    height: 687px;
-    width: 894px;
+    height: 399px;
+    width: 520px;
 }
 
 .prototypingContainer img {
-    height: 450px;
-    width: 781px;
+    height: 308px;
+    width: 536px;
 }
 
 .prototypingContainer p {
@@ -94,8 +96,8 @@ h5 {
 }
 
 .testingContainer img {
-    height: 190px;
-    width: 624px;
+    height: 142px;
+    width: 464px;
 }
 
 .testingContainer p {
@@ -104,8 +106,8 @@ h5 {
 }
 
 .outcomeContainer img {
-    height: 510px;
-    width: 1005px;
+    height: 286px;
+    width: 564px;
     margin-bottom: 100px;
 }
 
@@ -192,6 +194,36 @@ a {
     color: white !important;
 }
 
+
+.navbar .nav-item {
+    height: 40px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-link {
+    padding: 3px;
+}
+
+.nav-item li {
+    justify-content: center;
+    vertical-align: center;
+}
+
+.dropdown-menu a:hover{
+    background-color: #ef709b7a;
+}
+
+.bg-light {
+    background-color: #FFFFFF !important;
+}
+
+img {
+    object-fit: contain;
+}
+
 .card {
     padding: 20px;
     box-shadow: 4px 4px 28px 9px rgba(0, 0, 0, 0.25);
@@ -231,4 +263,37 @@ a {
 .logofooter {
     font-size: 36px;
     padding: 30px;
+}
+
+@media screen and (max-width:600px) {
+    .stepContainer {
+        font-size: 14px
+    }
+    .definitionContainer img {
+        height: 211px;
+        width: 385px;
+    }
+    .ideationContainer img {
+        height: 248px;
+        width: 323px;
+    }
+    .prototypingContainer img {
+        height: 198px;
+        width: 345px;
+    }
+    .outcomeContainer img {
+        height: 194px;
+        width: 384px;
+    }
+    .designStep {
+        margin-left: 2px;
+        margin-right: 2px;
+        height: 50px;
+        line-height: 40px;
+        padding: 5px;
+    }
+    .stepContainer {
+        margin: 0px;
+        padding: 0px;
+    }
 }

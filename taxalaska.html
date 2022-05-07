@@ -11,29 +11,41 @@
     <title>JVW Design</title>
   </head>
   <body class="row">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light col-md-8 offset-md-2 row justify-content-between py-0">
-        <a class="navbar-brand col-2 py-0 logo" href="#">JVW Design</a>
-        <div class="collapse navbar-collapse col-4 justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light col-md-8 offset-md-2">
+        <a class="navbar-brand logo" href="#">JVW Design</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mt-0 mt-lg-0 ml-auto">
             <li class="nav-item">
-              <a class="nav-link py-0" href="#">Home </a>
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link py-0" href="#">Projects <span class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">ULearn - Virtual Teaching Platform</a>
+                <a class="dropdown-item" href="./taxalaska.html">Tax Alaska Redesign</a>
+                <a class="dropdown-item" href="#">Plan&Go Travel App</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link py-0" href="#">About</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link py-0" href="#">Resume</a>
+              <a class="nav-link" href="#">Resume</a>
             </li>
           </ul>
         </div>
-    </nav>
+      </nav>
 
 
         <!-- Project Description and Picture -->
-        <div class="card mb-3 col-md-12">
+        <div class="fluid-container offset-md-1">
+        <div class="card mb-3 col-md-11">
             <div class="row">
                 <div class="col-md-12">
                     <div class="projectInfo d-flex justify-content-center">
@@ -73,13 +85,13 @@
               </div>
             </div>
           </div>
-
-       <div class="container text-center process">
+        </div>
+       <div class="container text-center process col-md-8">
            <h5>Process</h5>
            <div class="hl m-auto"></div>
            <p>The process used for this project includes the following:</p>
         
-           <div class="stepContainer d-flex">
+           <div class="stepContainer d-flex col-sm-12">
                 <div class="designStep">
                     Research
                 </div>
