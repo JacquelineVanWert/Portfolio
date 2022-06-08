@@ -67,6 +67,18 @@ body {
     margin-top: 20px;
 }
 
+.bello img{
+    max-width: 70%; 
+}
+
+.taxalaska img{
+    max-width: 100%;
+}
+
+.ulearn img{
+    max-width: 62%;
+}
+
 .button {
     border: 3px solid #454545;
     border-radius: 20px;
