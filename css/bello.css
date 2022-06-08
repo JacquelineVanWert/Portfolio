@@ -1,0 +1,300 @@
+h1,h2 {
+    font-family: 'Judson', serif;
+    font-size: 36px;
+    color: #454545;
+}
+
+h3 {
+    font-family: 'KoHo', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: 'KoHo', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: 'Judson', serif;
+    font-size: 36px;
+}
+.cardText {
+    font-size: 20px;
+}
+
+.belloImg img {
+    max-width: 100%;
+}
+
+.vl {
+    border-left: 1px solid #454545;
+  height: 83px;
+}
+
+.hl {
+    border-top: 1px solid #454545;
+    width: 70px;
+}
+
+.process p {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.process h5 {
+    margin-top: 68px;
+    margin-bottom: 15px;
+}
+
+
+
+.research h5 {
+    margin-top: 68px;
+    margin-bottom: 15px;
+}
+
+.researchContainer p {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.researchContainer img {
+    max-width: 62%;
+}
+
+.definitionContainer p {
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+
+.definitionContainer img {
+    max-width: 100%;
+}
+
+.ideationContainer p {
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+
+.ideationContainer img {
+    max-width: 70%;
+}
+
+.prototypingContainer img {
+    max-width: 100%;
+}
+
+.prototypingContainer p {
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+
+.testingContainer img {
+    max-width: 100%;
+}
+
+.testingContainer p {
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+
+.outcomeContainer img {
+    max-width: 40%;
+    margin-bottom: 100px;
+}
+
+.outcomeContainer {
+    justify-content: center;
+}
+
+.outcomeContainer p {
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+
+.designStep {
+    background-color: #454545;
+    width: 218px;
+    height: 70px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    line-height: 70px;
+    border-radius: 8px;
+}
+
+body {
+    font-family: 'KoHo', sans-serif;
+    font-size: 20px;
+    color: #454545;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.logo {
+    background-color: #454545;
+    color: white !important;
+    width: 173px;
+    height: 43px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    border: 3px solid #454545;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 3px 30px 3px 30px;
+    transition: all 0.5s ease;
+    margin-left: 20px;    
+}
+
+a {
+    text-decoration: none;
+    color: #454545;
+}
+
+.button:hover {
+    background-color: #454545;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding: 1px 10px 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+    transition: all 0.5s ease;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-item.active {
+    background-color: #454545;
+    padding: 1px 25px 5px 25px;
+    
+}
+
+.nav-item:not(.active):hover {
+    background-color: #ef709b7a;
+}
+
+.nav-item.active .nav-link {
+    color: white !important;
+}
+
+
+.navbar .nav-item {
+    height: 40px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-link {
+    padding: 3px;
+}
+
+.nav-item li {
+    justify-content: center;
+    vertical-align: center;
+}
+
+.dropdown-menu a:hover{
+    background-color: #ef709b7a;
+}
+
+.bg-light {
+    background-color: #FFFFFF !important;
+}
+
+img {
+    object-fit: contain;
+}
+
+.card {
+    padding: 20px;
+    box-shadow: 4px 4px 28px 9px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+}
+
+.projectInfo {
+    font-size: 16px;
+}
+
+.projectInfo b {
+    text-align: center;
+    margin: auto;
+}
+
+
+.footer {
+    background-color: #454545;
+}
+
+.footeritems {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footeritems a {
+    color: white;
+    text-decoration: none;
+}
+
+.footeritems a:hover {
+    text-decoration: none;
+    color: #ffa4c3e8;
+}
+
+.logofooter {
+    font-size: 36px;
+    padding: 30px;
+}
+
+@media screen and (max-width:600px) {
+    .stepContainer {
+        font-size: 14px
+    }
+    .definitionContainer img {
+        height: 211px;
+        width: 385px;
+    }
+    .ideationContainer img {
+        height: 248px;
+        width: 323px;
+    }
+    .prototypingContainer img {
+        height: 198px;
+        width: 345px;
+    }
+    .outcomeContainer img {
+        height: 194px;
+        width: 384px;
+    }
+    .designStep {
+        margin-left: 2px;
+        margin-right: 2px;
+        height: 50px;
+        line-height: 40px;
+        padding: 5px;
+    }
+    .stepContainer {
+        margin: 0px;
+        padding: 0px;
+    }
+    .projectInfo {
+        font-size: 14px;
+    }
+}
